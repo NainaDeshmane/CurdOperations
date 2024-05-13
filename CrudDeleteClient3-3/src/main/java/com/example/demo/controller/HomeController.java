@@ -20,6 +20,7 @@ public class HomeController {
 	public void deleteByRollno(@PathVariable int rollno)
 	{
 		hs.deleteByRollno(rollno);
+		System.out.println("Naina");
 	}
 	
 	@DeleteMapping("/deleteAll")
